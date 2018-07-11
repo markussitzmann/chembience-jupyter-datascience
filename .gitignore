@@ -4,6 +4,7 @@ tmp/*
 *~
 .idea/
 .local
+.java
 jupyter.log
 notebooks
 
