@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  jupyter:
+    image: chembience/jupyter-scijava:${CHEMBIENCE_BUILD_LABEL}
+    build:
+      context: .
+      args:
+        build_label: ${CHEMBIENCE_BUILD_LABEL}
+
+
+
+
