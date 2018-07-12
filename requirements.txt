@@ -1,1 +1,5 @@
 jupyter
+gensim
+altair
+vega_datasets
+vega
